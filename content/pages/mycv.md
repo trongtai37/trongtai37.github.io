@@ -1,6 +1,6 @@
 ---
-title: Tania Rascia
-slug: resume
+title: Tony Nguyen
+slug: mycv
 template: page
 ---
 

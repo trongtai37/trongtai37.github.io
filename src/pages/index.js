@@ -12,7 +12,7 @@ import projects from '../../data/projects'
 import speaking from '../../data/speaking'
 import podcasts from '../../data/podcasts'
 import quotes from '../../data/quotes'
-import tania from '../../content/images/tania-avatar.jpg'
+import trongtai from '../../content/images/trongtai.jpg'
 
 export default class Index extends Component {
   render() {
@@ -28,10 +28,10 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>I'm Tania</h1>
+              <h1>I'm Tai</h1>
               <p>
-                I build open-source projects and write about modern JavaScript, Node.js, design and
-                web development.
+              I want to work in a professional programming environment, where I can develop professional skills, 
+              learn new programming knowledge to successfully complete the assigned work.
               </p>
               <div className="social-buttons">
                 <div>
@@ -46,10 +46,10 @@ export default class Index extends Component {
                 </div>
                 <div>
                   <GitHubButton
-                    href="https://github.com/taniarascia"
+                    href="https://github.com/trongtai37"
                     data-size="large"
                     data-show-count="true"
-                    aria-label="Follow @taniarascia on GitHub"
+                    aria-label="Follow @trongtai37 on GitHub"
                   >
                     Follow
                   </GitHubButton>
@@ -57,10 +57,10 @@ export default class Index extends Component {
               </div>
             </div>
             <div className="newsletter-section">
-              <img src={tania} className="newsletter-avatar" alt="Tania" />
+              <img src={trongtai} className="newsletter-avatar" alt="Tania" />
               <div>
-                <h3>Get updates</h3>
-                <p>Open source projects and development tutorials</p>
+                <h3>Tai Nguyen</h3>
+                <p>Hi! I'm there to ...</p>
                 <a className="button" href="https://taniarascia.substack.com">
                   Subscribe
                 </a>

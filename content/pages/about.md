@@ -1,6 +1,6 @@
 ---
-title: Me
-slug: me
+title: About
+slug: about
 template: page
 ---
 
