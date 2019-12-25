@@ -1,86 +1,52 @@
 ---
-title: Tony Nguyen
 slug: mycv
 template: page
 ---
+![Profile Images](../images/trongtai.jpg)
+<h1 style="
+  text-align: center;
+  font-size: 40px;
+">
+Nguyen Trong Tai
+</h1>
+<p align="center">Web Junior Developer</p>
 
-### Web Developer
+<p align="center"><strong>Ha Noi, Viet Nam </strong> | <a href="callto::trongtaind37@gmail.com"> 0387689990</a> | <a href="mailto::trongtaind37@gmail.com"> trongtaind37@gmail.com</a></p>
 
-Highly motivated and versatile web developer and technical writer who is passionate about writing clean, efficient code and maintaining modern standards and security.
-
-- [taniarascia.com](https://www.taniarascia.com)
-- [tania@taniarascia.com](mailto:tania[AT]taniarascia[DOT]com)
-- Chicago, IL
-
-## Technical Skills
-
-- **Languages** - JavaScript (ES6+), PHP, HTML5, CSS3, Bash
-- **Concepts** - RESTful API Design/Integration, MVC Architecture, CI/CD, Agile, ADA Compliance
-- **Tools/Environment** - Node.js, Git, Webpack, Jenkins, Chrome DevTools, Jira, AWS, CLI, Sass
-- **Frameworks/Libraries** - React, jQuery, Semantic UI, Material, Bootstrap, Jest
-- **Data** - SQL (MySQL, PostgreSQL) GraphQL, JSON
-- **Testing** - Unit, integration, and end-to-end testing
-
-## Experience
-
-#### Front End Software Engineer
-
-**Dais Technology, Inc** - _2018 - Present | Chicago, IL_
-
-- Developed software for insurance companies in React with custom backend APIs
-- Created an internal user management system for organization admins
-- Worked with design team to create beautiful user interfaces and intuitive user experiences
-
-#### Technical Writer - JavaScript
-
-**DigitalOcean** - _2017 - 2019 | Remote_
-
-- Wrote the Understanding the DOM tutorial series, covering how to manipulate and traverse the DOM
-- Wrote the How to Code in JavaScript tutorial series, covering fundamentals, syntax, and concepts
-- Shaped the curriculum of JavaScript content by collaborating with the in-house team
-
-#### Web Developer
-
-**RateYourSeats.com** - _2018 | Chicago, IL_
-
-- Integrated Amazon SES and S3 for efficient object storage and secure email sending
-- Designed an API for the company to be able to access data across the platform
-- Integrated Git version control into the platform to track, manage, and simplify changes
-
-#### Web Developer/Designer
-
-**Lettuce Entertain You Enterprises, Inc.** - _2015 - 2017 | Chicago, IL_
-
-- Developed, designed, and maintained custom, responsive websites
-- Took ownership of Amazon Web Services infrastructure and Linux system administration
-- Established company conventions/standards and documented development processes
-- Designed and developed 15+ restaurant websites, such as Cafe Ba-Ba-Reeba!, Shaw’s Crab House, Krispy Kreme PNW, Tokio Pub, Beatrix, M Burger, and Stripburger
-
-## Open Source Projects
-
-- [Chip8.js](https://github.com/taniarascia/chip8) - Node.js emulator
-- [Laconia](https://github.com/taniarascia/laconia) - MVC web framework
-- [Primitive](https://github.com/taniarascia/primitive) - Sass boilerplate/CSS framework
-- [New Moon](https://github.com/taniarascia/new-moon) - Optimized dark theme
-
-## Speaking
-
-#### An Introduction to React
-
-**JavaScript Chicago** - _2019 | Chicago, IL_
-
-#### Developing a WordPress Theme From Scratch
-
-**WordCamp Chicago** - _2017 | Chicago, IL_
+## Objectives
+I want to work in a professional programming environment, where I can develop professional skills, learn new programming knowledge to successfully complete the assigned work.
 
 ## Education
+PSA (People Security Academy) - Sep, 2015 --> Sept, 2019
+* Major: Information Technology
+* GPA: 3.39/4
 
-#### B.A. in Professional Studies
+## Certifications
+2017 - TOEIC Certificate with score 670 issued by IIG VIET NAM
 
-**Robert Morris University** - _2007 - 2010 | Chicago, IL_
+## Honors and Awards
+* 2016 - Third Prize in the Programming Olympiad Competition - PSA
+* 2018 - Third Prize in the "Scientific Research Student Competition" issued by VIFOTEC
 
-# Accomplishments
 
-- Getting Started With React article featured in official React documentation as React For Beginners. [Source](https://reactjs.org/docs/getting-started.html)
-- Interviewed in the Egghead.io Podcast in Switching Careers and Learning in Public with Joel Hooks. [Source](https://egghead.io/podcasts/switching-careers-and-learning-in-public-with-tania-rascia)
-- Wrote published articles for DigitalOcean, Envato Tuts+, SitePoint, LogRocket, Codrops, and Progress. [Source](https://www.taniarascia.com/publications)
+## Languagues and Skills 
+* HTML5 & CSS3: [x][x][x][x][x][ ][ ][ ][ ][ ]
+* Vanilla JavaScript: [x][x][x][x][x][ ][ ][ ][ ][ ]
+* React & Redux: [x][x][x][x][ ][ ][ ][ ][ ][ ]
+* Git & Github: [x][x][x][x][x][ ][ ][ ][ ][ ]
+* Networking: [x][x][x][x][x][ ][ ][ ][ ][ ]
+* Office: [x][x][x][x][x][x][ ][ ][ ][ ]
+* Logical Thinking and Creative: [x][x][x][x][ ][ ][ ][ ][ ][ ]
+* Teamwork Skills: [x][x][x][x][x][ ][ ][ ][ ][ ]
+
+## Interest
+* Reading Blogs 
+* Cinema
+* Music
+
+## Activities
+THE ICPC INTERNATIONAL COLLEGIATE PROGRAMMING CONTEST, Nov, 2019 - Dec, 2019
+* **MEMBER OF PSA TEAM** - 
+The International Collegiate Programming Contest is an algorithmic programming contest for college students.
+Teams of three, representing their university, work to solve the most real-world problems, fostering collaboration, creativity, innovation, and the ability to perform under pressure.
+

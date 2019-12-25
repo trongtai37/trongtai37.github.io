@@ -19,7 +19,7 @@ class ThemeProvider extends Component {
 
     if (lsDark) {
       this.setState({ dark: lsDark })
-    }
+    } 
   }
 
   componentDidUpdate(prevState) {
