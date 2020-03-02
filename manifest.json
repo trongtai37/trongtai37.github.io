@@ -1,0 +1,12 @@
+{
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/codrops.png": "static/codrops-2d7b2a1fab472ef02babd2186b76f4d8.png",
+  "static/egghead.png": "static/egghead-ccdd804c87d12f9e024c9cc532e795a3.png",
+  "static/floppy.png": "static/floppy-7d563114074bfca5f3beef4a260cdd7d.png",
+  "static/gatsby.png": "static/gatsby-b7637c262ad964cf2f70abbbfc9e1f93.png",
+  "static/github.png": "static/github-d160ace5798527574789e89ec034e8f7.png",
+  "static/logrocket.png": "static/logrocket-ae690648ae8cd19e8b861bce171e6b81.png",
+  "static/netlify.png": "static/netlify-95e178f5b1dc1a2327595784442a866c.png",
+  "static/trongtai.jpg": "static/trongtai-3c2bd529cca23456954104cbf2746bb7.jpg"
+}
