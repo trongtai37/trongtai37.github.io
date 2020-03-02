@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import kebabCase from 'lodash.kebabcase'
 import { Link } from 'gatsby'
 
-export default class PostTags extends Component {
-  render() {
-    const { tags, size } = this.props
+const PostTags = (props) => {  
+    const { tags, size } = props
 
     return (
       <div className="tag-container">
@@ -15,6 +14,7 @@ export default class PostTags extends Component {
             </Link>
           ))}
       </div>
-    )
-  }
+    )  
 }
+
+export default PostTags;
