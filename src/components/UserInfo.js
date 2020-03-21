@@ -14,33 +14,13 @@ export default class UserInfo extends Component {
             </div>
             <div>
               <p>
-                I’m Tania Rascia. I document everything I learn and help thousands of people start
+                I’m Tony Nguyen. I document everything I learn and help thousands of people start
                 coding careers.{' '}
                 <strong>
                   My site has no ads, sponsors, or bullshit. If you enjoy my content, please
                   consider supporting what I do.
                 </strong>
-              </p>
-
-              <div className="flex">
-                <a
-                  href="https://ko-fi.com/taniarascia"
-                  className="donate-button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={kofi} className="coffee-icon" alt="Coffee icon" />
-                  Buy me a coffee
-                </a>
-                <a
-                  className="patreon-button"
-                  href="https://www.patreon.com/taniarascia"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={patreon} height="50" width="50" /> Become a Patron
-                </a>
-              </div>
+              </p>              
             </div>
           </div>
         </div>

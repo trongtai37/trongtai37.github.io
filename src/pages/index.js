@@ -5,14 +5,10 @@ import GitHubButton from 'react-github-btn'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import projects from '../../data/projects'
-import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
 import quotes from '../../data/quotes'
-import trongtai from '../../content/images/trongtai.jpg'
 
 export default class Index extends Component {
   render() {
@@ -37,11 +33,11 @@ export default class Index extends Component {
                 <div>
                   <a
                     className="twitter-follow-button"
-                    href="https://twitter.com/taniarascia"
+                    href="https://twitter.com/trongtai37"
                     data-size="large"
                     data-show-screen-name="false"
                   >
-                    Follow @taniarascia
+                    Follow @trongtai37
                   </a>
                 </div>
                 <div>
@@ -55,17 +51,7 @@ export default class Index extends Component {
                   </GitHubButton>
                 </div>
               </div>
-            </div>
-            <div className="newsletter-section">
-              <img src={trongtai} className="newsletter-avatar" alt="Tania" />
-              <div>
-                <h3>Tai Nguyen</h3>
-                <p>Hi! I'm there to ...</p>
-                <a className="button" href="https://taniarascia.substack.com">
-                  Subscribe
-                </a>
-              </div>
-            </div>
+            </div>            
           </div>
         </div>
 
@@ -93,17 +79,7 @@ export default class Index extends Component {
           <section className="section">
             <h2>Open Source Projects</h2>
             <ProjectListing projects={projects} />
-          </section>
-
-          <section className="section">
-            <h2>Podcasts</h2>
-            <SimpleListing simple data={podcasts} />
-          </section>
-
-          <section className="section">
-            <h2>Speaking</h2>
-            <SimpleListing simple data={speaking} />
-          </section>
+          </section>                    
 
           <section className="section">
             <h2>{`Other People's Opinions`}</h2>

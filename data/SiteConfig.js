@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'Tony Nguyen is a web developer and writer specializing in modern JavaScript.',
+    'Tony Nguyen is a junior web developer and writer specializing in modern JavaScript.',
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-42068444-1',
   postDefaultCategoryID: 'Tech',
@@ -17,14 +17,14 @@ const config = {
   newsletterEmbed: 'https://trongtai37.substack.com/embed',
   userName: 'Tony',
   userEmail: 'trongtaind37@gmail.com',
-  userTwitter: 'tai.nguyentrong.0607',
+  userTwitter: 'trongtai37',
   menuLinks: [
     {
-      name: 'About me',
+      name: 'Me',
       link: '/about/',
     },
     {
-      name: '\"Doodle Doode\"',
+      name: 'Blogs',
       link: '/blog/',
     },
     {

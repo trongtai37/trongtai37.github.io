@@ -74,17 +74,15 @@
   "scripts": {
     "develop": "gatsby develop",
     "dev": "yarn run develop",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "serve": "gatsby serve",
-    "build": "gatsby build",
-    "build:pp": "gatsby build --prefix-paths",
-    "build:gh": "yarn run clean && yarn run build:pp && gh-pages -d public",
+    "build": "gatsby build",    
     "clean": "rm -rf public && rm -rf .cache",
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
-    "check": "npx npm-check-updates -u",
-    "deploy:github": "npm run build && node ./scripts/deploy-github"
+    "check": "npx npm-check-updates -u"    
   },
   "remarkConfig": {
     "plugins": [

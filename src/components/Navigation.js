@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import floppy from '../images/floppy.png'
 import sun from '../images/sun.svg'
 import moon from '../images/moon.svg'
-import kofi from '../../content/thumbnails/kofi.png'
 import ThemeContext from '../context/ThemeContext'
 
 export default class Navigation extends Component {
@@ -57,17 +56,7 @@ export default class Navigation extends Component {
                   <img src={moon} className="theme-icon" alt="Dark Mode" />
                 )}
               </button>
-            </div>
-            <a
-              className="kofi-button"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://ko-fi.com/taniarascia"
-              aria-label="Buy me a coffee!"
-              title="Buy me a coffee!"
-            >
-              <img src={kofi} alt="Kofi" className="kofi" />
-            </a>
+            </div>            
           </div>
         </div>
       </nav>
