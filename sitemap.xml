@@ -4,15 +4,18 @@
 <url> <loc>https://trongtai37.github.io/connect/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/learn/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/mycv/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://trongtai37.github.io/newsletter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/primitives-methods/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://trongtai37.github.io/arrays/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://trongtai37.github.io/iterable/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://trongtai37.github.io/map-set/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/numbers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://trongtai37.github.io/tags/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://trongtai37.github.io/tags/node/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://trongtai37.github.io/array-methods/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://trongtai37.github.io/strings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://trongtai37.github.io/tags/javascript-info/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://trongtai37.github.io/tags/data-types/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/categories/code/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://trongtai37.github.io/publications/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://trongtai37.github.io/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
