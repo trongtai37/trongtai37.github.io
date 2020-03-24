@@ -1,13 +1,14 @@
 export default [
   {
-    name: 'Craig',
-    quote: `It's no exaggeration to say that I
-  wouldn't currently have a job in development without this site. So thanks for
-  ruining my life, Tania.`,
+    name: 'James Halliday (Ready Player One)',
+    quote: `Now, that... That was when I realized that, 
+    as terrifying and painful as reality can be, it's also the only place that you can get
+    a decent meal`,
   },
   {
-    name: 'Lori',
-    quote: `Not to get too dramatic, but I find your site to be an unspeakably beautiful
-  lifeboat in an overwhelming sea of technical jargon and shite.`,
+    name: 'Tony buổi sáng!',
+    quote: `Sai càng nhiều lúc còn trẻ thì thì khả năng thành ông trong tương lai càng lớn. 
+    Và tuyệt đối, không chỉ trích người khác. 
+    Không giành thời gian cho việc lảm nhảm đó. Nếu thèm chỉ trích quá thì nên tự trách minh !`,
   }
 ]

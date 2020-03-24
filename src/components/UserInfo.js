@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import trongtai from '../../content/images/trongtai.jpg'
-import patreon from '../../content/thumbnails/patreon.png'
-import kofi from '../../content/thumbnails/kofi.png'
 
 export default class UserInfo extends Component {
   render() {
@@ -14,7 +12,7 @@ export default class UserInfo extends Component {
             </div>
             <div>
               <p>
-                I’m Tony Nguyen. I document everything I learn and help thousands of people start
+                I’m trongtai37. I document everything I learn and share everyone who start
                 coding careers.{' '}
                 <strong>
                   My site has no ads, sponsors, or bullshit. If you enjoy my content, please

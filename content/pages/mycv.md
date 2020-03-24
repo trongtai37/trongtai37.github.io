@@ -30,14 +30,14 @@ PSA (People Security Academy) - Sep, 2015 --> Sept, 2019
 
 
 ## Languagues and Skills 
-* HTML5 & CSS3: [x][x][x][x][x][ ][ ][ ][ ][ ]
-* Vanilla JavaScript: [x][x][x][x][x][ ][ ][ ][ ][ ]
-* React & Redux: [x][x][x][x][ ][ ][ ][ ][ ][ ]
-* Git & Github: [x][x][x][x][x][ ][ ][ ][ ][ ]
-* Networking: [x][x][x][x][x][ ][ ][ ][ ][ ]
-* Office: [x][x][x][x][x][x][ ][ ][ ][ ]
-* Logical Thinking and Creative: [x][x][x][x][ ][ ][ ][ ][ ][ ]
-* Teamwork Skills: [x][x][x][x][x][ ][ ][ ][ ][ ]
+* HTML5 & CSS3: ![progress](https://progress-bar.dev/28/ "progress")
+* Vanilla JavaScript: ![progress](https://progress-bar.dev/28/ "progress")
+* React & Redux: ![progress](https://progress-bar.dev/28/ "progress")
+* Git & Github: ![progress](https://progress-bar.dev/28/ "progress")
+* Networking: ![progress](https://progress-bar.dev/28/ "progress")
+* Office: ![progress](https://progress-bar.dev/28/ "progress")
+* Logical Thinking and Creative: ![progress](https://progress-bar.dev/28/ "progress")
+* Teamwork Skills: ![progress](https://progress-bar.dev/28/ "progress")
 
 ## Interest
 * Reading Blogs 

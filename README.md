@@ -1,5 +1,5 @@
 # trongtai37.github.com
-Tony's personal website running on Gatsby, React, and Node.js.
+trongtai37's personal website running on Gatsby, React, and Node.js.
 
 ## Note
 
@@ -14,7 +14,6 @@ The [Gatsby Advanced Starter](https://github.com/vagr9k/gatsby-advanced-starter/
 - Night mode
 - DOS mode (404)
 - Code theme (starring [New Moon](https://trongtai37.github.io/new-moon))
-- Sass (starring [Primitive](https://trongtai37.github.io/primitive))
 - Comments (custom API)
 
 ## Contributing
@@ -29,10 +28,7 @@ If you see any typos or formatting errors in a post, or any other issue that nee
 
 ## Author
 
-- [Tony Nguyen](https://www.trongtai37.github.com)
-<a href="https://patreon.com/trongtai37"><img src="https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.herokuapp.com/trongtai37&style=for-the-badge" alt="Patreon donate button" /> </a>
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1GNP8)
+- [trongtai37](https://www.trongtai37.github.com)
 
 ## License
 

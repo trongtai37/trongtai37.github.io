@@ -76,10 +76,7 @@ export default class PostTemplate extends Component {
           </header>
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
-        </article>
-        <div className="container">
-          <NewsletterForm />
-        </div>
+        </article>        
         <UserInfo config={config} />
       </Layout>
     )

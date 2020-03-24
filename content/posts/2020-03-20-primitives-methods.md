@@ -1,14 +1,14 @@
 ---
 date: 2020-03-20
-title: 'Methods of primitives'
+title: '[javascript.info] - Data Types: Methods of primitives'
 template: post
-thumbnail: '../thumbnails/binary.png'
+thumbnail: '../thumbnails/javascript.png'
 slug: primitives-methods
 categories:
   - Code
 tags:
-  - javascript
-  - node
+  - javascript.info  
+  - data-types
 ---
 # Methods of primitives
 

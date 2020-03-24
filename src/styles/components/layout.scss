@@ -728,7 +728,7 @@ blockquote {
     position: relative;
 
     p {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
 
     &:nth-of-type(2n) {
@@ -742,7 +742,7 @@ blockquote {
       right: 1.5rem;
       color: rgba(0, 0, 0, 0.6);
       margin-top: 1rem;
-      font-size: 1.3rem;
+      font-size: 1rem;
       text-align: right;
       font-family: $font-family;
       color: rgba(0, 0, 0, 0.4);

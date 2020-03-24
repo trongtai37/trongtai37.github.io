@@ -6,6 +6,7 @@
   z-index: 3;
   width: 100%;
   background: white;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);;
 
   &.scroll {
     box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
@@ -76,8 +77,8 @@
 }
 
 .favicon {
-  height: 23px;
-  width: 23px;
+  height: 40px;
+  width: 40px;
   min-width: 23px;
   margin-right: .75rem;
   margin-bottom: 0;

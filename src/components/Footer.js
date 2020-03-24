@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import gatsby from '../../content/thumbnails/gatsby.png'
 import github from '../../content/images/github.png'
 
