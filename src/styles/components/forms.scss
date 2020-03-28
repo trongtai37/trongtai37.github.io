@@ -13,7 +13,7 @@
   font-weight: 500;
   width: 100%;
   max-width: 100%;
-  line-height: 1;
+  line-height: 1;  
 }
 
 // Input fields on hover
@@ -44,7 +44,7 @@
 
 textarea {
   overflow: auto;
-  height: auto;
+  height: 100px;
   line-height: 1.6;
 }
 
@@ -82,19 +82,28 @@ select::-ms-expand {
 label {
   font-weight: 700;
   font-size: 1rem;
-  max-width: 100%;
+  width: 30%;
+  padding-right: 20px;
   display: block;
+  text-align: right;
   margin: 1rem 0 0.5rem;
 }
 
-.newsletter-form {
+.form-row {
   display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-  [type='text'],
-  [type='email'] {
-    width: 100%;
-    max-width: 400px;
-    margin-right: 0.5rem;
+  input, select, textarea {
+    width: 60%;
+  }
+
+  button[type='submit']{
+    margin-left: 50%;
+    margin-top: 20px;
+    width: 25%;
+    transform: translate(-50%,0);
   }
 }
 

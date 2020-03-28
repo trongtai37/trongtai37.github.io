@@ -65,9 +65,9 @@ Let's start with the deletion:
 ```js run
 let arr = ["I", "study", "JavaScript"];
 
-*!*
+
 arr.splice(1, 1); // from index 1 remove 1 element
-*/!*
+
 
 alert( arr ); // ["I", "JavaScript"]
 ```
@@ -77,18 +77,18 @@ Easy, right? Starting from the index `1` it removed `1` element.
 In the next example we remove 3 elements and replace them with the other two:
 
 ```js run
-let arr = [*!*"I", "study", "JavaScript",*/!* "right", "now"];
+let arr = ["I", "study", "JavaScript", "right", "now"];
 
 // remove 3 first elements and replace them with another
 arr.splice(0, 3, "Let's", "dance");
 
-alert( arr ) // now [*!*"Let's", "dance"*/!*, "right", "now"]
+alert( arr ) // now ["Let's", "dance", "right", "now"]
 ```
 
 Here we can see that `splice` returns the array of removed elements:
 
 ```js run
-let arr = [*!*"I", "study",*/!* "JavaScript", "right", "now"];
+let arr = ["I", "study","JavaScript", "right", "now"];
 
 // remove 2 first elements
 let removed = arr.splice(0, 2);
@@ -202,9 +202,7 @@ let arr = [1, 2];
 let arrayLike = {
   0: "something",
   1: "else",
-*!*
   [Symbol.isConcatSpreadable]: true,
-*/!*
   length: 2
 };
 
@@ -387,7 +385,7 @@ let arr = [ 1, 2, 15 ];
 // the method reorders the content of arr
 arr.sort();
 
-alert( arr );  // *!*1, 15, 2*/!*
+alert( arr );  // 1, 15, 2
 ```
 
 Did you notice anything strange in the outcome?
@@ -420,11 +418,11 @@ function compareNumeric(a, b) {
 
 let arr = [ 1, 2, 15 ];
 
-*!*
-arr.sort(compareNumeric);
-*/!*
 
-alert(arr);  // *!*1, 2, 15*/!*
+arr.sort(compareNumeric);
+
+
+alert(arr);  // 1, 2, 15
 ```
 
 Now it works as intended.
@@ -453,7 +451,7 @@ let arr = [ 1, 2, 15 ];
 
 arr.sort(function(a, b) { return a - b; });
 
-alert(arr);  // *!*1, 2, 15*/!*
+alert(arr);  // 1, 2, 15
 ```
 ````
 
@@ -700,10 +698,10 @@ let users = [
   {age: 30}
 ];
 
-*!*
+
 // find users, for who army.canJoin returns true
 let soldiers = users.filter(army.canJoin, army);
-*/!*
+
 
 alert(soldiers.length); // 2
 alert(soldiers[0].age); // 20

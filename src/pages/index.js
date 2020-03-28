@@ -6,6 +6,7 @@ import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import ProjectListing from '../components/ProjectListing'
 import SEO from '../components/SEO'
+import CommentForm from '../components/CommentForm'
 import config from '../../data/SiteConfig'
 import projects from '../../data/projects'
 import quotes from '../../data/quotes'
@@ -15,7 +16,7 @@ export default class Index extends Component {
     const { data } = this.props
 
     const latestPostEdges = data.latest.edges
-    const popularPostEdges = data.popular.edges
+    // const popularPostEdges = data.popular.edges
 
     return (
       <Layout>
@@ -24,22 +25,14 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>I'm Tai</h1>
+              <h1>Hi, I'm Tai!</h1>
               <p>
-              I want to work in a professional programming environment, where I can develop professional skills, 
-              learn new programming knowledge to successfully complete the assigned work.
+                I'm just a junior front-end developer and focus my career path on web development.
+                <br/> 
+                I build this blog mainly for learning and sharing purpose. 
+                This website as a place to document everything I learned while going through a career change!        
               </p>
-              <div className="social-buttons">
-                <div>
-                  <a
-                    className="twitter-follow-button"
-                    href="https://twitter.com/trongtai37"
-                    data-size="large"
-                    data-show-screen-name="false"
-                  >
-                    Follow @trongtai37
-                  </a>
-                </div>
+              <div className="social-buttons">                
                 <div>
                   <GitHubButton
                     href="https://github.com/trongtai37"
@@ -66,7 +59,7 @@ export default class Index extends Component {
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>
               Most Popular
               <Link to="/categories/popular" className="view-all">
@@ -74,15 +67,15 @@ export default class Index extends Component {
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
-          </section>
+          </section> */}
 
           <section className="section">
-            <h2>Open Source Projects</h2>
+            <h2>My Pet Projects</h2>
             <ProjectListing projects={projects} />
           </section>                    
 
           <section className="section">
-            <h2>{`Other People's Opinions`}</h2>
+            <h2>{`Some Favorite Quotes`}</h2>
             <div className="quotations">
               {quotes.map(quote => (
                 <blockquote className="quotation" key={quote.name}>
@@ -91,6 +84,12 @@ export default class Index extends Component {
                 </blockquote>
               ))}
             </div>
+          </section>
+
+          <section className="comment-form">
+            <h2>Leave your Opinions</h2>
+            <p>... for thought and improvement purpose!</p>
+            <CommentForm />
           </section>
         </div>
       </Layout>

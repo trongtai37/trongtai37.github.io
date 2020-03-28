@@ -4,9 +4,11 @@ slug: about
 template: page
 ---
 
-I’m Tai, a junior web developer. I currently work as a front end software developer.
+I’m Tai, a junior web front-end developer. I currently work as a front end software developer.
 
 I started this website as a place to document everything I learned while going through a career change. I learn in public and write about everything I know.
+
+If you are on Human Resources, take a look at [my cv](/mycv)!
 
 ### Connect me on Internet
 
@@ -27,7 +29,7 @@ There are some websites, blogs i have learnt a lot:
 ## Open Source Projects
 
 - [KeySpy-2019](https://github.com/trongtai37/keyspy.git) – A Malware to log the keyboard and capture screenshot !
-- [Tony Weather App](https://github.io/trongtai37/tony-weather-app.git) - A Simple Weather Forecast App with ReactJS !
+- [Tony Weather App](https://github.com/trongtai37/tony-weather-app.git) - A Simple Weather Forecast App with ReactJS !
 
 ## Music
 - [Zing MP3](https://zingmp3.vn) - A website for listening music from VietNam with awesome features!
@@ -37,10 +39,9 @@ There are some websites, blogs i have learnt a lot:
 ## Currently Using
 
 - **Computer:** HP Elitebook 8460p
-- **Hosting:** [Github Pages](https://pages.github.io) (blog),
+- **Hosting:** [Github Pages](https://pages.github.com) (blog),
 - **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
 - **Static Site Generator:** [Gatsby](https://gatsbyjs.org)
 - **Code Theme:** [New Moon](https://taniarascia.github.io/new-moon)
-- **Newsletter:** [Substack](https://substack.com)
 - **Notes:** [Google Keep](https://keep.google.com) and [Google Calendar](https://calendar.google.com/)
 

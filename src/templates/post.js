@@ -6,9 +6,9 @@ import Layout from '../layout'
 import UserInfo from '../components/UserInfo'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
+import CommentForm from '../components/CommentForm'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
-import NewsletterForm from '../components/NewsletterForm'
 
 export default class PostTemplate extends Component {
   constructor(props) {
@@ -20,7 +20,6 @@ export default class PostTemplate extends Component {
   }
 
   render() {
-    const { comments, error } = this.state
     const { slug } = this.props.pageContext
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
@@ -76,6 +75,9 @@ export default class PostTemplate extends Component {
           </header>
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
+
+          <h2>Leave your Opinions</h2>
+          <CommentForm postName={`Opinions about ${post.title}!`}/>
         </article>        
         <UserInfo config={config} />
       </Layout>
