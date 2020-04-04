@@ -109,7 +109,6 @@ arr.splice(2, 0, "complex", "language");
 alert( arr ); // "I", "study", "complex", "language", "JavaScript"
 ```
 
-````smart header="Negative indexes allowed"
 Here and in other array methods, negative indexes are allowed. They specify the position from the end of the array, like here:
 
 ```js run
@@ -122,7 +121,6 @@ arr.splice(-1, 0, 3, 4);
 
 alert( arr ); // 1,2,3,4,5
 ```
-````
 
 ### slice
 
@@ -441,7 +439,7 @@ By the way, if we ever want to know which elements are compared -- nothing preve
 
 The algorithm may compare an element with multiple others in the process, but it tries to make as few comparisons as possible.
 
-````smart header="A comparison function may return any number"
+
 Actually, a comparison function is only required to return a positive number to say "greater" and a negative number to say "less".
 
 That allows to write shorter functions:
@@ -453,9 +451,9 @@ arr.sort(function(a, b) { return a - b; });
 
 alert(arr);  // 1, 2, 15
 ```
-````
 
-````smart header="Arrow functions for the best"
+
+
 Remember [arrow functions](info:arrow-functions-basics)? We can use them here for neater sorting:
 
 ```js
@@ -463,9 +461,8 @@ arr.sort( (a, b) => a - b );
 ```
 
 This works exactly the same as the longer version above.
-````
 
-````smart header="Use `localeCompare` for strings"
+
 Remember [strings](info:string#correct-comparisons) comparison algorithm? It compares letters by their codes by default.
 
 For many alphabets, it's better to use `str.localeCompare` method to correctly sort letters, such as `Ö`.
@@ -479,7 +476,6 @@ alert( countries.sort( (a, b) => a > b ? 1 : -1) ); // Andorra, Vietnam, Österr
 
 alert( countries.sort( (a, b) => a.localeCompare(b) ) ); // Andorra,Österreich,Vietnam (correct!)
 ```
-````
 
 ### reverse
 
@@ -522,7 +518,7 @@ let arr = 'Bilbo, Gandalf, Nazgul, Saruman'.split(', ', 2);
 alert(arr); // Bilbo, Gandalf
 ```
 
-````smart header="Split into letters"
+
 The call to `split(s)` with an empty `s` would split the string into an array of letters:
 
 ```js run
@@ -530,7 +526,7 @@ let str = "test";
 
 alert( str.split('') ); // t,e,s,t
 ```
-````
+
 
 The call [arr.join(glue)](mdn:js/Array/join) does the reverse to `split`. It creates a string of `arr` items joined by `glue` between them.
 

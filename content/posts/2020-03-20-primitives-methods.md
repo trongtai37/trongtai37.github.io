@@ -93,7 +93,7 @@ alert( n.toFixed(2) ); // 1.23
 We'll see more specific methods in chapters <info:number> and <info:string>.
 
 
-````warn header="Constructors `String/Number/Boolean` are for internal use only"
+String/Number/Boolean are for internal use only"
 Some languages like Java allow us to explicitly create "wrapper objects" for primitives using a syntax like `new Number(1)` or `new Boolean(false)`.
 
 In JavaScript, that's also possible for historical reasons, but highly **unrecommended**. Things will go crazy in several places.
@@ -122,17 +122,15 @@ For example, this is entirely valid:
 ```js
 let num = Number("123"); // convert a string to number
 ```
-````
 
 
-````warn header="null/undefined have no methods"
 The special primitives `null` and `undefined` are exceptions. They have no corresponding "wrapper objects" and provide no methods. In a sense, they are "the most primitive".
 
 An attempt to access a property of such value would give the error:
 
 ```js run
 alert(null.test); // error
-````
+```
 
 ## Summary
 

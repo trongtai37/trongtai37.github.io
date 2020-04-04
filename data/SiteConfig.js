@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'Tony Nguyen is a junior web developer and writer specializing in modern JavaScript.',
+    'trongtai37 is a junior web developer in modern JavaScript.',
   siteRss: '/rss.xml',
   googleAnalyticsID:'UA-161709442-1',
   postDefaultCategoryID: 'Tech',  

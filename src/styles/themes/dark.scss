@@ -100,11 +100,16 @@ $dark-border: darken($background, 3%);
     }
 
     .links a {
-      color: darken($foreground, 20%);
+      color: darken($foreground, 10%);
 
-      &:hover,
+      &:hover {
+
+      }
+
       &.active {
         color: $foreground;
+        border: 2px solid #666;
+        border-radius: 5px;
       }
     }
   }

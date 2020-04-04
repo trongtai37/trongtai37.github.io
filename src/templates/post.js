@@ -75,9 +75,12 @@ export default class PostTemplate extends Component {
           </header>
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
-
-          <h2>Leave your Opinions</h2>
-          <CommentForm postName={`Opinions about ${post.title}!`}/>
+          
+          <div className="comment">
+            <h2>Leave your Opinions</h2>
+            <CommentForm postName={`Opinions about ${post.title}!`}/>
+          </div>
+          
         </article>        
         <UserInfo config={config} />
       </Layout>

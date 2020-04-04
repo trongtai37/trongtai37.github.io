@@ -7,9 +7,9 @@ template: page
   text-align: center;
   font-size: 40px;
 ">
-Nguyen Trong Tai
+Tai Nguyen Trong
 </h1>
-<p align="center">Web Junior Developer</p>
+<p align="center">Junior Frontend Developer</p>
 
 <p align="center"><strong>Ha Noi, Viet Nam </strong> | <a href="callto::trongtaind37@gmail.com"> 0387689990</a> | <a href="mailto::trongtaind37@gmail.com"> trongtaind37@gmail.com</a></p>
 <a class="button" style="margin-left: 50%; transform: translate(-50%,0);"
@@ -22,7 +22,7 @@ Nguyen Trong Tai
 I want to work in a professional programming environment, where I can develop professional skills, learn new programming knowledge to successfully complete the assigned work.
 
 ## Education
-PSA (People Security Academy) - Sep, 2015 → Sept, 2019
+**PSA (People Security Academy) - Sep, 2015 → Sept, 2019**
 * Major: Information Technology
 * GPA: 3.39/4
 
@@ -61,7 +61,7 @@ PSA (People Security Academy) - Sep, 2015 → Sept, 2019
 * Music
 
 ## Activities
-THE ICPC INTERNATIONAL COLLEGIATE PROGRAMMING CONTEST, Nov, 2019 - Dec, 2019
+**THE ICPC INTERNATIONAL COLLEGIATE PROGRAMMING CONTEST, Nov, 2019 - Dec, 2019**
 * **MEMBER OF PSA TEAM** - 
 The International Collegiate Programming Contest is an algorithmic programming contest for college students.
 Teams of three, representing their university, work to solve the most real-world problems, fostering collaboration, creativity, innovation, and the ability to perform under pressure.

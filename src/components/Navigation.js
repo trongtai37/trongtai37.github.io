@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import minion from '../images/minion.png'
-import sun from '../images/sun.svg'
-import moon from '../images/moon.svg'
 import ThemeContext from '../context/ThemeContext'
 
 export default class Navigation extends Component {
@@ -38,26 +36,23 @@ export default class Navigation extends Component {
         <div className="nav-container">
           <div className="brand">
             <Link to="/">
-              <img src={minion} className="favicon" alt="Floppy Diskette" />
+              <img src={minion} className="favicon" alt="Minions" />
               <span className="text">trongtai37</span>
             </Link>
           </div>
-          <div className="links">
+          <div className="links">            
             {menuLinks.map(link => (
               <Link key={link.name} to={link.link} activeClassName="active">
                 {link.name}
               </Link>
-            ))}
-            <div className="cta">
-              <button className="dark-switcher" onClick={theme.toggleDark} aria-label="Toggle Dark Mode." title="Toggle Dark Mode">
-                {theme.dark ? (
-                  <img src={sun} className="theme-icon" alt="Light Mode" />
-                ) : (
-                  <img src={moon} className="theme-icon" alt="Dark Mode" />
-                )}
-              </button>
-            </div>            
-          </div>
+            ))}            
+          </div>          
+          <div className="theme-switcher">
+            <label className="switcher">
+              <input type="checkbox" checked={theme.dark} onChange={theme.toggleDark}/>
+              <div className="slider"></div>
+            </label>
+          </div>          
         </div>
       </nav>
     )

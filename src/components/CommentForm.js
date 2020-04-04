@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import thankyou from '../images/minion-thank.jpg';
 
 class CommentForm extends Component {
   state = {
@@ -47,7 +48,10 @@ class CommentForm extends Component {
     const { isSubmitted } = this.state;
     if (isSubmitted) {
       return (
-        <p>Thank for submitting your comment!</p>
+        <div className="thank-you">
+          <img width='250px'src={thankyou} alt="Minion Thank" />
+          <p>Thank for submitting your comment!</p>
+        </div>
       );
     }
     else return (

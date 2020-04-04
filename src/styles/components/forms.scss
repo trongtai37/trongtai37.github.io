@@ -96,7 +96,7 @@ label {
   flex-wrap: wrap;
 
   input, select, textarea {
-    width: 60%;
+    width: 65%;
   }
 
   button[type='submit']{
@@ -104,6 +104,14 @@ label {
     margin-top: 20px;
     width: 25%;
     transform: translate(-50%,0);
+  }
+}
+
+@include small-breakpoint {
+  .form-row{
+    input, select, textarea {
+      width: 60%;
+    }
   }
 }
 
